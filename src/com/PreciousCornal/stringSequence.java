@@ -12,9 +12,13 @@ public class stringSequence {
         String name = (scanner.nextLine());
         int nameTwo = name.length();
 
-        for(int i = 0; i < nameTwo; i++){
+        for (int i = 0; i < nameTwo; i++){
             System.out.print(name.charAt(i) + " ");
         }
+        // to print string characters backward
+//        for(int i = nameTwo -1 ; i > 0; i--){
+//            System.out.print(name.charAt(i) + " ");
+//        }
 
     }
 }
