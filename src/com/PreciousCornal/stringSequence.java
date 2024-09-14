@@ -3,11 +3,11 @@ package com.PreciousCornal;
 import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class Main {
+public class stringSequence {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-       int start = 0;
+        int start = 0;
         System.out.print("Enter a characters: ");
         String name = (scanner.nextLine());
         int nameTwo = name.length();
