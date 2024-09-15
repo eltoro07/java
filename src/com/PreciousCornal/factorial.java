@@ -1,12 +1,13 @@
 package com.PreciousCornal;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class Main {
+public class factorial {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        // Implement a program which calculates the factorial of a number given by the user.
+        //or example, the factorial of 4 is 24 or 4! = 1 * 2 * 3 * 4 = 24
         System.out.print("First number: ");
         int number= scanner.nextInt();
 
@@ -18,5 +19,4 @@ public class Main {
         }
         System.out.println("Factorial: " + totalFactorial);
     }
-
 }
