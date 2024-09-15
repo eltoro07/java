@@ -1,9 +1,8 @@
 package com.PreciousCornal;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class Main {
+public class starPattern {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -19,10 +18,7 @@ public class Main {
                 System.out.print("*");
 
             System.out.println();
-            }
-
         }
+
     }
-
-
-
+}
