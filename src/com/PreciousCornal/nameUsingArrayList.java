@@ -4,22 +4,22 @@ import java.util.ArrayList;
 import java.util.Objects;
 import java.util.Scanner;
 
-public class Main {
+public class nameUsingArrayList {
     public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
-    ArrayList<String> list = new ArrayList<>();
-    while(true) {
-        System.out.print("Add a name: [0 to exit]:" );
-        String names = scanner.nextLine();
-        list.add(names);
+        ArrayList<String> list = new ArrayList<>();
+        while(true) {
+            System.out.print("Add a name: [0 to exit]:" );
+            String names = scanner.nextLine();
+            list.add(names);
 
-        if (names.equals("0")){
-            break;
+            if (names.equals("0")){
+                break;
+            }
         }
-    }
-    System.out.println("Word that contains \"a\" are:");
-    printName(list);
+        System.out.println("Word that contains \"a\" are:");
+        printName(list);
 
     }
 
