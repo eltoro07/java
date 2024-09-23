@@ -18,9 +18,9 @@ public class nameUsingArrayList {
                 break;
             }
         }
-        System.out.println("Word that contains \"a\" are:");
+        System.out.println("Word that contains \"ana\" are:");
         printName(list);
-
+        System.out.println(list.size());;
     }
 
     public static void printName(ArrayList<String> theNames){
@@ -30,4 +30,6 @@ public class nameUsingArrayList {
             }
         }
     }
+
+
 }

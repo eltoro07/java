@@ -10,7 +10,7 @@ A program that replaces the odd elements of an array before the even elements
 a tempLists was created to sort all the odd & even numbers
 and copied the tempLists to the original lists array variable
  */
-public class Main {
+public class sortOddEvenArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -27,12 +27,12 @@ public class Main {
         }
         copyArray(tempLists, lists);
         System.out.print(Arrays.toString(lists));
-        }
+    }
 
-        public static void copyArray(int[] temp, int[] number){
-            for(int i = 0; i < temp.length; i++)
-                number[i] = temp[i];
-        }
+    public static void copyArray(int[] temp, int[] number){
+        for(int i = 0; i < temp.length; i++)
+            number[i] = temp[i];
+    }
 
 }
 
